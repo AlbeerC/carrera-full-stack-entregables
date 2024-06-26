@@ -6,7 +6,7 @@ var productos = ["Leche", "Galletitas", "Harina", "Queso"];
 function arrayToString(array) {
     var string = "";
     for (var i = 0; i < array.length; i++) {
-        string += "".concat(array[i], " ");
+        string += "".concat(array[i]);
     }
     return string;
 }

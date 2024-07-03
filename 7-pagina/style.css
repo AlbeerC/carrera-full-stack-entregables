@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #f8b822;
+    padding: 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Probando especificidad y cascada */
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+}
+
+.header ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.header ul li:hover {
+    color: #7e5f16;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin: 50px;
+}
+
+.main-content img {
+    width: 50%;
+}
+
+.table-info {
+    padding: 20px;
+    border: 2px solid #000000;
+}
+
+.table-info img {
+    display: block;
+    margin: 0 auto;
+}
+
+.table-info ul {
+    list-style: none;
+}
+
+.table-info ul li {
+    padding: 7px 0;
+    font-size: 18px;
+}
+
+.table-info ul li span {
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.text {
+    padding: 0 50px;
+    text-align: justify;
+}
+
+.text h2 a {
+    font-size: 30px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.text h2 a:visited {
+    color: #f8b822;
+}
+
+.text p {
+    font-size: 18px;
+}
+
+.footer {
+    background-color: #f8b822;
+    padding: 5px 0;
+    text-align: center;
+}
+
+.footer p {
+    font-size: 20px;
+    font-weight: bold;
+}
